@@ -42,4 +42,4 @@ The firmware is structured as a layered, modular application on top of the STM32
 - Technical documentation and design explainations
 
 ---
-*Developed as a university Embedded Systems project in pair collaboration with Andy Armour and myself (Curtis Christian).*
+*Developed as a university Embedded Systems project in pair collaboration with Andy Armour and myself (Curtis Christian). Some information around the RCAP board and assignment instructions cannot be listed in fear of IP violations*
