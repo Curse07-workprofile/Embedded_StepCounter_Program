@@ -1,0 +1,35 @@
+#ifndef TIMING_H
+#define TIMING_H
+
+// Timing module for task coordination
+
+#define TICK_FREQUENCY_HZ 1000
+
+#define HZ_TO_TICKS(FREQUENCY_HZ) (TICK_FREQUENCY_HZ/FREQUENCY_HZ)
+
+#define BUZZER_TASK_FREQUENCY_HZ 	2
+#define BUTTON_TASK_FREQUENCY_HZ 	100
+#define DISPLAY_TASK_FREQUENCY_HZ 	6
+#define ADC_TASK_FREQUENCY_HZ 		10
+#define UART_TASK_FREQUENCY_HZ 		2
+#define LED_TASK_FREQUENCY_HZ 		6
+
+#define BUTTON_TASK_PERIOD_TICKS 	(TICK_FREQUENCY_HZ/BUTTON_TASK_FREQUENCY_HZ)
+#define BUZZER_TASK_PERIOD_TICKS 	(TICK_FREQUENCY_HZ/BUZZER_TASK_FREQUENCY_HZ)
+#define DISPLAY_TASK_PERIOD_TICKS 	(TICK_FREQUENCY_HZ/DISPLAY_TASK_FREQUENCY_HZ)
+#define ADC_TASK_PERIOD_TICKS 	(TICK_FREQUENCY_HZ/ADC_TASK_FREQUENCY_HZ)
+#define UART_TASK_PERIOD_TICKS 		(TICK_FREQUENCY_HZ/UART_TASK_FREQUENCY_HZ)
+#define LED_TASK_PERIOD_TICKS 		(TICK_FREQUENCY_HZ/LED_TASK_FREQUENCY_HZ)
+
+void initTiming(void);
+
+void loopTimer(void);
+
+bool uartTimingCheckRun(void);
+bool adcTimingCheckRun(void);
+bool displayTimingCheckRun(void);
+bool buttonTimingCheckRun(void);
+bool buzzerTimingCheckRun(void);
+bool ledTimingCheckRun(void);
+
+#endif // TIMING_H
