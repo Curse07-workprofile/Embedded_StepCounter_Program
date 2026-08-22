@@ -1,4 +1,4 @@
-# STM32 Step-Counter — Embedded Systems Project
+# STM32 Step-Counter - Embedded Systems Project
  
 This step-counter program is based around an STM32C071 microcontroller and the custom RCAP extension (designed and made by the University of Canterbury) shown in the picture below.
 The program features an interrupt-driven kernel with cooperative task scheduling. 
@@ -29,9 +29,9 @@ The device tracks steps, goal progress, and distance travelled, with a full peri
  
 The firmware is structured as a layered, modular application on top of the STM32 HAL:
  
-- **Application layer** — owns task scheduling, module configuration, and shared data structures; has no direct hardware access, keeping business logic decoupled from drivers
-- **Driver modules** — one module per peripheral (IMU, display, LEDs, buzzer, joystick/potentiometer, UART), each independently testable and portable
-- **HAL abstraction** — hardware-specific operations utilize the STM HAL interface, making the program portable to other STM target boards with minimal modification
+- **Application layer** - owns task scheduling, module configuration, and shared data structures; has no direct hardware access, keeping business logic decoupled from drivers
+- **Driver modules** - one module per peripheral (IMU, display, LEDs, buzzer, joystick/potentiometer, UART), each independently testable and portable
+- **HAL abstraction** - hardware-specific operations utilize the STM HAL interface, making the program portable to other STM target boards with minimal modification
  
 ## Skills Demonstrated
  
