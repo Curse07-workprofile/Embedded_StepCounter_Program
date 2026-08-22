@@ -1,6 +1,0 @@
-STM32 board	: https://www.st.com/resource/en/user_manual/um3353-stm32-nucleo64-board-mb2046-stmicroelectronics.pdf
-		: https://www.st.com/resource/en/reference_manual/rm0490-stm32c0-series-advanced-armbased-32bit-mcus-stmicroelectronics.pdf
-		: https://www.st.com/resource/en/user_manual/um3029-description-of-stm32c0-hal-and-lowlayer-drivers-stmicroelectronics.pdf
-		: https://www.st.com/resource/en/datasheet/stm32c071kb.pdf
-
-IMU 		: https://www.st.com/resource/en/datasheet/lsm6ds3tr-c.pdf
