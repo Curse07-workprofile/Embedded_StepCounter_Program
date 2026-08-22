@@ -1,8 +1,12 @@
 # STM32 Step-Counter — Embedded Systems Project
  
-This step-counter program is based around an STM32C071 microcontroller and the custom RCAP extension (designed and made by the University of Canterbury).
+This step-counter program is based around an STM32C071 microcontroller and the custom RCAP extension (designed and made by the University of Canterbury) shown in the picture below.
 The program features an interrupt-driven kernel with cooperative task scheduling. 
 The device tracks steps, goal progress, and distance travelled, with a full peripheral setup for input and output functionality.
+
+---
+![MCU & RCAP](./images/step_counter_board.png)
+---
 
 ## Resources of Project
 
