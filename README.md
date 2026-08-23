@@ -14,8 +14,7 @@ The device tracks steps, goal progress, and distance travelled, with a full peri
 ## Resources of Project
 
 - [Full Design Report](./StepcounterReport.pdf) — detailed write-up of architecture, sub-systems, and design decisions
-- [Source Code (.c)](./Code/Core/Src/Source_code.md) — Our code written source files
-- [Source Code (.h)](./Code/Core/Inc/Include_code.md) — Our code written header files
+- [Source Code](./source_code.md) — Our written code with brief descriptions of each file
 - [Hardware Documentation](./Hardware_documentation/HardwareDocLinks.md) — component user guides and manuals
 
 ## Features
